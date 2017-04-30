@@ -1,0 +1,45 @@
+bind 
+apply 
+call
+closure
+clear both
+window event
+href how many areas we use
+link tag
+IIFE
+namespace
+data types
+complex data types
+array 
+splice
+slice
+json parse
+     signify
+ajax types
+    Get/Post/Put
+How to upload file using ajax
+simantic elements
+
+can we make <p> to in line element using CSS
+window width
+difference between IIFE and Closure
+difference between callback and Closure
+difference between IIFE and callback
+
+DOM elements
+    getelementbyid
+                class
+    what above returns ? which is faster
+getelementbyid is return object or array
+getelementbyclass is return object or array
+    can we use same class for many times ?
+    if we use what getelementbyclass will return
+How many ways we can create object
+Iniheritence ?
+how to apply inheritence  ?
+
+what is "this" in js... is it local or global ?
+what will happen if we use more global variable ?
+what is new in JS?
+why we need to use new?
+is local or global varible is faster ?

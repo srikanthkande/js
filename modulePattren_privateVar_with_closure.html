@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+<body>
+<h3>
+modulePattren_privateVar_with_closure.html
+</h3>
+<script>
+	function createPerson() {
+		var fname = "First name";
+		var lname = "Last Name";
+		
+		var returnObj = {
+			"getFirstName" : function ()
+			{
+				return fname;
+			};
+			"getLastName" : function ()
+			{
+				return lname;
+			};
+			
+			
+		};
+	}
+	var person = createPerson()
+	var name = person.getFirstName() + person.getLastName();
+	window.write(name);
+</script>
+</body>
+</html>
