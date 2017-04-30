@@ -14,18 +14,20 @@ modulePattren_privateVar_with_closure.html
 			"getFirstName" : function ()
 			{
 				return fname;
-			};
+			},
 			"getLastName" : function ()
 			{
 				return lname;
-			};
-			
-			
+			}
 		};
+        return returnObj;
 	}
-	var person = createPerson()
-	var name = person.getFirstName() + person.getLastName();
-	window.write(name);
+	var person = createPerson();
+    person.fname = "heeeee";
+	var name = person.getFirstName() + "." + person.getLastName();
+	
+    console.log(name);
+    
 </script>
 </body>
 </html>
